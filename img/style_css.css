@@ -1,0 +1,106 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+body{
+	background-color:grey;
+}
+
+.utama {
+	max-width : 1080px;
+	margin : 20px auto;
+	background-color: white;
+	overflow: hidden;
+}
+
+header{
+	background-color: salmon;
+	color: white;
+	padding: 20px;
+}
+.navigasi ul {
+	list-style: none;
+	padding:0px;
+	margin: 0;
+	overflow: hidden;
+	background-color: pink;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+
+
+.navigasi li{
+	float: left;
+}
+
+.navigasi li a{
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 20px;
+	display: block; 
+}
+
+.navigasi li a:hover{
+	background-color: black;
+	transition-duration: 1s;
+}
+
+ol{
+      margin-top: 0px;
+      margin-bottom:20px;
+}
+.angka
+{
+      list-style-type: decimal;
+}
+
+.art-sheet{
+    border-top: 1px solid #FEFEFE; 
+    clear: both;
+    width: 950px;
+    margin: 2px auto 0;
+    background: white;
+    color: #000000;
+    text-align:left;
+}
+
+.kiri {
+	padding: 10px;
+    float: left;
+    width: 640px;
+	box-sizing: border-box;
+	height: 780px;
+}
+
+.angka {
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.kanan {
+	padding: 10px;
+    float: left;
+    width: 440px;
+	box-sizing: border-box;
+	background-color: salmon;
+	height: 780px;
+}
+
+
+.gambar {
+	width:100%;
+	
+}
+footer {
+	clear: both;
+	background-color: salmon;
+	color: white;
+	padding: 15px;
+	text-align: center;
+	
+}
